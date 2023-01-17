@@ -16,6 +16,11 @@
     color: black;
 }
 
+:root {
+    --red: rgb(226, 39, 48);
+    --green: rgb(113, 243, 26);
+}
+
 head {
     display: none;
 }
@@ -34,14 +39,14 @@ header {
 h1 {
     font-weight: 800;
     font-size: 300%;
-    color: greenyellow;
+    color: var(--green);
     margin: 0 auto 0 0;
 }
 
 h1 span {
     font-weight: 800;
     font-size: 100%;
-    color: red;
+    color: var(--red);
 }
 
 header a {
@@ -132,7 +137,7 @@ img {
 
 .inside .bottom {
     position: absolute;
-    background-color: greenyellow;
+    background-color: var(--green);
 }
 
 #breakfast {
