@@ -21,7 +21,7 @@ head {
 }
 
 body {
-    background-color: lightgray;
+    background: url("45degreee_fabric.webp") repeat;
 }
 
 header {
@@ -51,6 +51,10 @@ header a {
     vertical-align: middle;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 main {
     padding: 100px;
     display: flex;
@@ -69,7 +73,7 @@ h2 {
     margin-right: 100px;
 }
 
-#left p {
+#left p, #left a {
     font-size: 150%;
     font-weight: 500;
     margin-bottom: 50px;
@@ -110,30 +114,35 @@ img {
     margin-left: -30px;
 }
 
-.inside {
-    position: absolute;
-    bottom: 8px;
-    right: 8px;
-}
-
 .inside p {
-    display: flex;
-    flex-flow: column nowrap;
     padding: 20px;
     margin: 0;
     text-align: right;
     font-weight: 800;
     font-size: 125%;
-    right: -8px;
+    bottom: 8px;
+    right: 0px;
 }
 
 .inside .top {
-    position: relative;
+    position: absolute;
     background-color: white;
+    bottom: 68px;
 }
 
 .inside .bottom {
-    position: relative;
+    position: absolute;
     background-color: greenyellow;
-    padding-left: 0px;
+}
+
+#breakfast {
+    padding-left: 50px;
+}
+
+#lunch {
+    padding-left: 100px;
+}
+
+#dinner {
+    padding-left: 100px;;
 }
