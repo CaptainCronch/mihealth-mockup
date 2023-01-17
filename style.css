@@ -1,14 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700;800&display=swap');
 
 * { /* RESET */
     vertical-align: baseline;
     font-weight: 400;
-    font-family: Roboto, sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-style: inherit;
     font-size: 16px;
     border: 0 none;
     outline: 0;
     padding: 0;
     margin: 0;
-    color: #fff;
+    color: black;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 300%;
+    color: green;
+}
+
+h1 span {
+    font-weight: 800;
+    font-size: 100%;
+    color: red;
 }
