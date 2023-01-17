@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+
+* { /* RESET */
+    vertical-align: baseline;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    font-style: inherit;
+    font-size: 16px;
+    line-height: 1;
+    text-decoration: none;
+    display: inline-block;
+    border: 0 none;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+
+head {
+    display: none;
+}
+
+body {
+    background-color: lightgray;
+}
+
+header {
+    background-color: white;
+    padding: 20px 80px;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 300%;
+    color: greenyellow;
+    margin: 0 auto 0 0;
+}
+
+h1 span {
+    font-weight: 800;
+    font-size: 100%;
+    color: red;
+}
+
+header a {
+    padding-right: 50px;
+    font-size: 150%;
+    font-weight: 500;
+    vertical-align: middle;
+}
+
+main {
+    padding: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: space-between;
+    flex-flow: row nowrap;
+}
+
+h2 {
+    font-weight: 800;
+    font-size: 500%;
+    margin-bottom: 20px;
+}
+
+#left {
+    margin-right: 100px;
+}
+
+#left p {
+    font-size: 150%;
+    font-weight: 500;
+    margin-bottom: 50px;
+    line-height: 1.5;
+}
+
+#left #browse {
+    font-weight: 600;
+}
+
+#browse #arrow {
+    font-size: 150%;
+    font-weight: 800;
+}
+
+.display {
+    margin-right: 20px;
+    position: relative;
+}
+
+.display:last-child {
+    margin-right: 0;
+}
+
+img {
+    width: 400px;
+    height: 600px;
+}
+
+#shrimp {
+    width: 400px;
+    height: 600px;
+    overflow: hidden;
+}
+
+#shrimp img {
+    width: auto;
+    margin-left: -30px;
+}
+
+.inside {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+}
+
+.inside p {
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 20px;
+    margin: 0;
+    text-align: right;
+    font-weight: 800;
+    font-size: 125%;
+    right: -8px;
+}
+
+.inside .top {
+    position: relative;
+    background-color: white;
+}
+
+.inside .bottom {
+    position: relative;
+    background-color: greenyellow;
+    padding-left: 0px;
+}
